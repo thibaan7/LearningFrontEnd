@@ -1,0 +1,59 @@
+#countLabel{
+    text-align: center;
+    font-size: 5em;
+    color: black;
+    font-family:cursive;
+}
+#buttonContainer{
+    text-align: center;
+    font-size: 5em;
+    
+}
+.buttons{
+    font-size: 50px;
+    border-radius: 10px;
+    padding: 10px 50px;
+    text-align: center;
+    background-color: green;
+    color: black;
+    cursor:pointer;
+    transition:background-color 1s ;
+
+    
+}
+
+
+.buttons:hover{
+    background-color:black;
+    color: lightgreen;
+    transform: scale(1.1); /* Slightly increase the size of the button */
+    transition: transform 0.3s ease; /* Smooth transition for the pop-up effect */
+}
+
+#random{
+    text-align: center;
+}
+
+#roll {
+    font-family: Tahoma;
+    font-size: large;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    transition: transform 1s ease; /* Smooth transition */
+    cursor: crosshair;
+}
+
+#roll:hover{
+    transform: rotate3d(1, 1, 0, 1080deg); /* Roll multiple times to mimic a dice roll */
+}
+
+#randomnum{
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+

@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(244, 214, 214);
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative; /* Set relative position to contain absolute positioned elements */
+}
+
+h1 {
+    position: absolute;
+    top: 50px; /* Adjust this value to position the h1 as needed */
+    left: 50%;
+    transform: translateX(-50%); /* Centers the h1 horizontally */
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#stopwatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 10px;
+    height: 20vh;         /* Set fixed height */
+    width: 45vh;          /* Set fixed width */
+    background-color: rgb(119, 28, 20);
+    padding: 20px;
+}
+
+#timer {
+    color: wheat;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#start, #stop, #reset {
+    padding: 10px 20px;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+    border: none;
+    flex: 1;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Individual button colors */
+#start {
+    background-color: rgb(118, 118, 222);
+}
+
+#stop {
+    background-color: rgb(237, 10, 10);
+}
+
+#reset {
+    background-color: rgb(56, 210, 36);
+}
+
+#credits {
+    position: absolute; /* Position the credits absolutely within the body */
+    bottom: 10px; /* Anchors to the bottom */
+    left: 50%; /* Centers horizontally */
+    transform: translateX(-50%); /* Centers by shifting half of its own width */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    padding-top: 10px;
+}

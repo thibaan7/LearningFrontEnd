@@ -1,0 +1,36 @@
+body{
+    background-image: url(1354314.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  
+}
+#clock{
+    color: white;
+    font-family: monospace;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(2px);
+}
+#credits {
+    color: white;    
+    display: flex; 
+    justify-content: center;             
+    align-items: center;                 
+    backdrop-filter: blur(2px);  
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;                     
+    backdrop-filter: blur(1px);      
+    padding-top: 10px; 
+
+}

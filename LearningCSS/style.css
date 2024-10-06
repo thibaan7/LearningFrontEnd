@@ -1,0 +1,45 @@
+body{
+    background-color: grey;
+
+}
+
+h1{
+    color: black;
+}
+
+#p1{
+    background-color: brown;
+}
+
+#p2{
+    background-color:yellow;
+}
+
+.odd{
+    color: white;
+}
+
+.even{
+    color: black;
+}
+
+#box1{
+    border: 10px solid;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    font-size: 50px;
+    background-color: aqua;
+    
+    
+    
+}
+
+#box1:hover{
+animation: 1s linear 0s infinite running myRotate;
+}
+
+@keyframes myRotate {
+    0% { transform: rotateZ(0deg); }   /* Starting point */
+    100% { transform: rotateZ(360deg); } /* Ending point */
+}
